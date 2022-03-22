@@ -1,0 +1,45 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Roboto+Serif:wght@300&display=swap');
+
+h1,h2,h3,h4,p{
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 0;
+   }
+h1{
+    font-size: 3rem;
+}
+h2{
+    font-size: 30px;
+    color: rgb(102,171,185);
+}
+h3{
+    font-size: 20px;
+}
+h4{
+    font-size: 15px;
+}
+p{
+    font-size: 20px;
+    color: rgb(7,71,104); 
+}
+#nav{
+    background-color: rgba(102,171,185, .5);
+    color: rgb(7, 71, 104); 
+}
+
+.btn-servicio{
+    background-color: rgb(7, 71, 104, .5);
+    color:black;
+}
+.btn-servicio:hover{
+    background: linear-gradient(to top, rgb(7, 71, 104, .5), rgb(7, 71, 104, 1.0));
+    color: whitesmoke;
+    cursor: pointer;
+    transition: all 2s;
+}
+.bg-hoja{
+    background-image: url(../imagenes/white-paper-crumpled-texture-background-free-photo.jpg);
+}
+.general {
+    margin: 30px;
+}
